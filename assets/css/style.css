@@ -59,7 +59,7 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
+  --eerie-black-2: hsl(240, 2%, 12%, 85%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
@@ -156,10 +156,11 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
-
-
-
+body { 
+  background: var(--smoky-black); 
+  max-width: 1200px;
+  margin: auto;
+}
 
 
 /*-----------------------------------*\
@@ -308,8 +309,18 @@ main {
 }
 
 
+/*-----------------------------------*\
+  #PARTICLE JS  
+\*-----------------------------------*/
 
-
+.particlejs {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
 
 /*-----------------------------------*\
   #SIDEBAR
