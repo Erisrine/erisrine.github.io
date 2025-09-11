@@ -516,7 +516,14 @@ main {
   line-height: 1.6;
 }
 
+
 .about-text p { margin-bottom: 15px; }
+
+customh {
+  color: var(--orange-yellow-crayola);
+  display: inline;
+  font-weight: 500;  
+}
 
 
 

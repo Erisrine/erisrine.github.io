@@ -14,3 +14,15 @@ and takes pride in the world class audio experiences he's contributed to over th
 He has a bachelors in electronic production and design from Berklee College of Music.
 
 In his spare time, he loves photography, recording music, hiking, and reading Murakami novels.
+
+-----
+
+I'm Ivan, an Italian Technical Sound Designer.
+
+My work bridges sound design and technology, with skills spanning audio design, implementation,
+custom plugin programming and workflow design. I love building audio systems that are both creative and functional, 
+helping games sound as good as they feel to play.
+
+When I’m not working on audio, I’m usually exploring the newest titles, playing
+the bass, or traveling.
+
