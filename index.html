@@ -169,11 +169,6 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
-          <!--
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-          -->
         </ul>
 
       </nav>
@@ -193,7 +188,7 @@
             I'm <customh>Ivan</customh>, an Italian <customh>Technical Sound Designer</customh>.
             <br>
             <br>
-            My work bridges artistic processrd and technical workflows, with skills spanning audio design, implementation,
+            My work bridges artistic processes and technical workflows, with skills spanning audio design, implementation,
             custom plugin programming and workflow design. I love building audio systems that are both creative and functional, 
             helping games sound as good as they feel to play.
             <br>
@@ -249,7 +244,197 @@
 
       </article>
 
+      <!--
+        - #PORTFOLIO
+      -->
 
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Videogames</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Tools and Plugins</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Linear Media</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Videogames</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Tools and Plugins</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Linear Media</button>
+              </li>
+              
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+            <!--Projects:
+                Torino Magazine
+                Point Fighter
+                My Human
+                Two Fingers
+                Marathons
+                ME Initiation
+                TODO: Wwise Extension (DS Quality)
+            -->
+            <!-- POINT FIGHTER -->
+            <li class="project-item  active" data-filter-item data-category="videogames">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PointFighter.png" alt="Point Fighter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Project <i>point-fighter</i></h3>
+
+                <p class="project-category">Technical Sound Design</p>
+
+              </a>
+            </li>
+            <!-- TORINO MAGAZINE -->
+            <li class="project-item  active" data-filter-item data-category="linear media">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Tomag.png" alt="Torino Magazine" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Torino Magazine</h3>
+
+                <p class="project-category">Podcast & Content Audio Production</p>
+
+              </a>
+            </li>
+            <!-- MY HUMAN -->
+            <li class="project-item  active" data-filter-item data-category="linear media">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MyHuman.png" alt="My Human" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">My Human</h3>
+
+                <p class="project-category">Sound Design & Final Mix</p>
+
+              </a>
+            </li>
+            <!-- TWO FINGERS -->
+            <li class="project-item  active" data-filter-item data-category="linear media">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TwoFingers.png" alt="Two Fingers" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Two Fingers</h3>
+
+                <p class="project-category">Audio Cleanup & Final Mix</p>
+
+              </a>
+            </li>
+            <!-- ME INITIATION -->
+             <li class="project-item  active" data-filter-item data-category="videogames">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Initiation.png" alt="Mirror's Edge: Initiation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mirror's Edge: Initiation</h3>
+
+                <p class="project-category">Dialogue Editing</p>
+
+              </a>
+            </li>
+            <!-- MARATHONS-->
+             <li class="project-item  active" data-filter-item data-category="linear media">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Marathons.png" alt="Charity Speedrunning Marathons" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Charity Speedrunning Marathons</h3>
+
+                <p class="project-category">Miscellaneous Volunteering</p>
+
+              </a>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
@@ -474,206 +659,10 @@
         -->
       </article>
 
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Videogames</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Tools and Plugins</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Linear Media</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Videogames</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Tools and Plugins</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Linear Media</button>
-              </li>
-              
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-            <!--Projects:
-                Torino Magazine
-                Point Fighter
-                My Human
-                Two Fingers
-                Marathons
-                ME Initiation
-                TODO: Wwise Extension (DS Quality)
-            -->
-            <!-- POINT FIGHTER -->
-            <li class="project-item  active" data-filter-item data-category="videogames">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/PointFighter.png" alt="Point Fighter" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Project <i>point-fighter</i></h3>
-
-                <p class="project-category">Technical Sound Design</p>
-
-              </a>
-            </li>
-            <!-- TORINO MAGAZINE -->
-            <li class="project-item  active" data-filter-item data-category="linear media">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Tomag.png" alt="Torino Magazine" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Torino Magazine</h3>
-
-                <p class="project-category">Podcast & Content Audio Production</p>
-
-              </a>
-            </li>
-            <!-- MY HUMAN -->
-            <li class="project-item  active" data-filter-item data-category="linear media">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/MyHuman.png" alt="My Human" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">My Human</h3>
-
-                <p class="project-category">Sound Design & Final Mix</p>
-
-              </a>
-            </li>
-            <!-- TWO FINGERS -->
-            <li class="project-item  active" data-filter-item data-category="linear media">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/TwoFingers.png" alt="Two Fingers" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Two Fingers</h3>
-
-                <p class="project-category">Audio Cleanup & Final Mix</p>
-
-              </a>
-            </li>
-            <!-- ME INITIATION -->
-             <li class="project-item  active" data-filter-item data-category="videogames">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Initiation.png" alt="Mirror's Edge: Initiation" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Mirror's Edge: Initiation</h3>
-
-                <p class="project-category">Dialogue Editing</p>
-
-              </a>
-            </li>
-            <!-- MARATHONS-->
-             <li class="project-item  active" data-filter-item data-category="linear media">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Marathons.png" alt="Charity Speedrunning Marathons" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Charity Speedrunning Marathons</h3>
-
-                <p class="project-category">Miscellaneous Volunteering</p>
-
-              </a>
-            </li>
-            
-          </ul>
-
-        </section>
-
-      </article>
-
       <!--
         - #BLOG
       -->
-
+      <!--
       <article class="blog" data-page="blog">
 
         <header>
@@ -857,7 +846,7 @@
         </section>
 
       </article>
-
+      -->
 
 
 
